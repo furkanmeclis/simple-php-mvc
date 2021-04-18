@@ -15,10 +15,8 @@
     new ErrorHandler();
     load("class");
     load('router');
-    $_route = new Router();
-    
-    
-    $_route->add("tunahan/{all}","welcome@index","get");
-    $_route->run();
+    $router = new Router();
+    require realpath(".")."/app/config/router.php";
+  
    
   
