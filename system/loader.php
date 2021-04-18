@@ -16,7 +16,7 @@
     load("class");
     load('router');
     $router = new Router();
-    require realpath(".")."/app/config/router.php";
+    require realpath(".")."/app/config/routes.php";
   
    
   
