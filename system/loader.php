@@ -17,6 +17,7 @@
     load('router');
     $router = new Router();
     require realpath(".")."/app/config/routes.php";
+$router->run();
   
    
   
