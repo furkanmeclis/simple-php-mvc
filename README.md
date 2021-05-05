@@ -57,7 +57,7 @@ Php projelerinizde kullanabileceğiniz kullanımı basit bir yapı.
         "smtp_host"   => "smtp.gmail.com",
         "smtp_port"   => "587",
         "smtp_secure" => "tls",
-        "smtp_user"   => example@gmail.com",
+        "smtp_user"   => "example@gmail.com",
         "smtp_pass"   => "12345678",
     );
     ```
